@@ -1,4 +1,6 @@
-import { welcome } from "../lib/welcome.js";
+#!/usr/bin/env node
+
+import welcome from "../lib/welcome.js";
 import getDirName from "../lib/getDirName.js";
 import whichTemplate from "../lib/whichTemplate.js";
 import downloadRepo from "../lib/downloadRepo.js";

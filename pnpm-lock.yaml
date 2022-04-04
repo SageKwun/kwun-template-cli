@@ -6,6 +6,7 @@ specifiers:
   figlet: ^1.5.2
   git-pull-or-clone: ^2.0.1
   inquirer: ^8.2.2
+  kwun-templates-cli: ^1.0.1
   ora: ^6.1.0
 
 dependencies:
@@ -14,6 +15,7 @@ dependencies:
   figlet: 1.5.2
   git-pull-or-clone: 2.0.1
   inquirer: 8.2.2
+  kwun-templates-cli: 1.0.1
   ora: 6.1.0
 
 packages:
@@ -271,6 +273,20 @@ packages:
 
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+    dev: false
+
+  /kwun-templates-cli/1.0.1:
+    resolution: {integrity: sha512-4knB1l1Hm0b5EYvMH9WjLXU7OR/bCPxJuSlMtdRR1wNNuyP3oPqXHk3yONuj8s36lPda2qTftIYHAbgWoTxa5g==}
+    hasBin: true
+    dependencies:
+      chalk: 5.0.1
+      clear: 0.1.0
+      figlet: 1.5.2
+      git-pull-or-clone: 2.0.1
+      inquirer: 8.2.2
+      ora: 6.1.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /lodash/4.17.21:
