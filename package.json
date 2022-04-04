@@ -1,0 +1,31 @@
+{
+  "name": "kwun-templates-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "type": "module",
+  "bin": {
+    "cli": "./bin/index.js"
+  },
+  "scripts": {
+    "dev": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SageKwun/kwun-templates-cli.git"
+  },
+  "author": "sagekwun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SageKwun/kwun-templates-cli/issues"
+  },
+  "homepage": "https://github.com/SageKwun/kwun-templates-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "git-pull-or-clone": "^2.0.1",
+    "inquirer": "^8.2.2",
+    "ora": "^6.1.0"
+  }
+}
