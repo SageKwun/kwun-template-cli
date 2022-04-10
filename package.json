@@ -5,7 +5,7 @@
   "main": "./bin/index.js",
   "type": "module",
   "bin": {
-    "cli-init": "/bin/index.js"
+    "cli-init": "./bin/index.js"
   },
   "scripts": {
     "dev": "node ./bin/index.js"
